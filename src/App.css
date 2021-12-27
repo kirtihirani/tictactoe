@@ -1,0 +1,28 @@
+body {
+  background-color: #ccccff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 10px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  background: rgb(190, 116, 197);
+  border: black 5px solid;
+}
+.icon {
+  font-size: 35px;
+  color: #941717;
+}
+.box:hover{
+  background-color: rgb(223, 180, 220);
+}
+
+
